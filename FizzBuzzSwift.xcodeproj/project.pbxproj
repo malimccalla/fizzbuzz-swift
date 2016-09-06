@@ -18,6 +18,7 @@
 		2472952D1D7ECF6C00068394 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2472952C1D7ECF6C00068394 /* Game.swift */; };
 		2478B79B1D7F07770097B304 /* ViewControllerUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2478B79A1D7F07770097B304 /* ViewControllerUnitTests.swift */; };
 		2478B79E1D7F2D300097B304 /* ViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2478B79D1D7F2D300097B304 /* ViewControllerUITests.swift */; };
+		2478B7A01D7F48240097B304 /* Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2478B79F1D7F48240097B304 /* Move.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		2478B79A1D7F07770097B304 /* ViewControllerUnitTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerUnitTests.swift; sourceTree = "<group>"; };
 		2478B79C1D7F2D300097B304 /* FizzBuzzSwiftUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FizzBuzzSwiftUITests-Bridging-Header.h"; sourceTree = "<group>"; };
 		2478B79D1D7F2D300097B304 /* ViewControllerUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerUITests.swift; sourceTree = "<group>"; };
+		2478B79F1D7F48240097B304 /* Move.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Move.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				247295041D7EAF1A00068394 /* Info.plist */,
 				247295281D7EB2BB00068394 /* Brain.swift */,
 				2472952C1D7ECF6C00068394 /* Game.swift */,
+				2478B79F1D7F48240097B304 /* Move.swift */,
 			);
 			path = FizzBuzzSwift;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2478B7A01D7F48240097B304 /* Move.swift in Sources */,
 				247294FB1D7EAF1A00068394 /* ViewController.swift in Sources */,
 				247295291D7EB2BB00068394 /* Brain.swift in Sources */,
 				247294F91D7EAF1A00068394 /* AppDelegate.swift in Sources */,
