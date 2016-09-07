@@ -55,9 +55,13 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fTd-h6-P4M">
+                                        <accessibility key="accessibilityConfiguration" identifier="fizzBuzzButton"/>
                                         <state key="normal" image="space" backgroundImage="button_border">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bb6-UC-Q8E"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nmc-gJ-V1H">
                                         <accessibility key="accessibilityConfiguration" identifier="buzzButton"/>
@@ -65,7 +69,7 @@
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="f5t-ee-4FI"/>
+                                            <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="J3E-su-ZfL"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -103,7 +107,9 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="buzzButton" destination="nmc-gJ-V1H" id="DW7-Vu-8eX"/>
                         <outlet property="fizzButton" destination="ymi-Gq-qUe" id="n8y-m7-KS6"/>
+                        <outlet property="fizzBuzzButton" destination="fTd-h6-P4M" id="eO9-ij-2my"/>
                         <outlet property="numberButton" destination="OVl-eG-Dm2" id="Six-hu-9IP"/>
                     </connections>
                 </viewController>
